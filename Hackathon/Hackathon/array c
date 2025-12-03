@@ -1,0 +1,46 @@
+""#include <studio.h>
+int fun(int,int);
+
+int main()
+
+        int a{]=10,20,30,40,50};
+        int c;
+        c=fun (a[2],a[3];
+        printf(older value at index a in the given array\t%d\n",a[4]);
+        a[4]=c;
+        printf("\new value at index 5 in the given array\t%d\n",a[4]);
+        return 0;
+
+int fun(int a[])""
+
+
+
+
+#include <stdio.h>
+
+// Function to compute and print the summation of two arrays
+void sumArrays(int arr1[], int arr2[], int length) {
+    int sum[length];  // new array to store result
+
+    // Compute element-wise sum
+    for (int i = 0; i < length; i++) {
+        sum[i] = arr1[i] + arr2[i];
+    }
+
+    // Print the resulting array
+    printf("Sum of the two arrays:\n");
+    for (int i = 0; i < length; i++) {
+        printf("%d ", sum[i]);
+    }
+    printf("\n");
+}
+
+int main() {
+    int arr1[] = {1, 2, 3, 4, 5};
+    int arr2[] = {5, 4, 3, 2, 1};
+    int length = sizeof(arr1) / sizeof(arr1[0]);  // find array length
+
+    // Call the function
+    sumArrays(arr1, arr2, length);
+
+    return 0;

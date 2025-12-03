@@ -1,0 +1,14 @@
+streamlit==1.28.0
+plotly==5.17.0
+pandas==2.1.1
+numpy==1.25.2
+sgp4==2.22
+pyephem==4.1.5
+opencv-python==4.8.1.78
+requests==2.31.0
+python-dotenv==1.0.0
+scipy==1.11.3
+
+# Computer vision / detection
+ultralytics==8.1.0
+pillow==10.0.1
